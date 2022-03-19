@@ -54,7 +54,6 @@ export const MyComponent = () => {
       <Collasible
         trigger="Click me to see more"
         content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus officia voluptate totam minima cum? Laboriosam, recusandae veritatis dolore saepe quibusdam nesciunt esse delectus aut consequuntur ex aliquid, enim cupiditate commodi!"
-        rounded={false}
         roundedSize={"lg"}
       />
     </>
@@ -74,21 +73,16 @@ Here's a table of all available props for the Collapsible.
 
 ### 🧩 General props
 
-| Prop              | Description                                             | Type                                                | default                   |
-| ----------------- | ------------------------------------------------------- | --------------------------------------------------- | ------------------------- |
-| name              | Sets the name of the input field.                       | _`string`_                                          |
-| type              | Sets type of input field                                | _`text \| number \| password \| email \| select`_   | text                      |
-| label             | Adds a label to the top of insect component.            | _`string`_                                          |
-| placeholder       | Sets the placeholder for insect component.              | _`string`_                                          | Input or select an option |
-| prefixIcon        | Adds an icon at the left of insect field                | _`string \| React.ReactNode \| null`_               |
-| suffixIcon        | Adds an icon at the right of insect field               | _`string \| React.ReactNode \| null`_               |
-| className         | Custom classname for main insect container              | _`string`_                                          |
-| labelClass        | Custom classname for insect label                       | _`string`_                                          |
-| inputWrapperClass | Custom classname for the input field wrapper div        | _`string`_                                          |
-| inputClass        | Custom classname for the main input field               | _`string`_                                          |
-| iconsClass        | Custom classname for all icons                          | _`string`_                                          |
-| onFocus           | Function to trigger when input field is focused on.     | _`(e: React.FocusEvent<HTMLInputElement>) => void`_ |
-| onBlur            | Function to trigger when input field goes out of focus. | _`(e: React.FocusEvent<HTMLInputElement>) => void`_ |
+| Prop        | Description                                                  | Type                      | default |
+| ----------- | ------------------------------------------------------------ | ------------------------- | ------- |
+| trigger\*   | The part of the collapsible that you click to expand.        | _`string \| JSX.Element`_ |         |
+| content\*   | The part shown after the collapsible is expanded.            | _`string \| JSX.Element`_ |         |
+| rounded     | Determines whether the collapsible wrapper would be rounded. | _`boolean`_               | true    |
+| roundedSize | Sets the size of the collapsible wrapper's rounded corners.  | _`sm \| md \| lg \| xl`_  | _`md`_  |
+| triggerIcon | Icon at the left of collapsible trigger                      | _`string \| JSX.Element`_ | +       |
+| color       | Applied as collapsible wrapper border color                  | _`string`_                | #333333 |
+| borderWidth | Applied as collapsible wrapper border width                  | _`number`_                | 2       |
+| paddingSize | Applied as collapsible wrapper padding size                  | _`sm \| md \| lg \| xl`_  | _`md`_  |
 
 <br />
 <br />
