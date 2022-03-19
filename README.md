@@ -3,7 +3,7 @@
 <div align="center">
   <br />
   <br />
-  <img src="https://res.cloudinary.com/kadet/image/upload/v1642358094/insect/logo_dbzodw.svg" width="200" height="auto" alt="butter-collapsible logo" align="center" />
+  <img src="https://github.com/duruyoungcr/butter-accordion/blob/main/logo.png" width="auto" height="auto" alt="butter-collapsible logo" align="center" />
   <br />
   <br />
   <h3 align="center">🛠 A simple and lightweight React collasible package.</h3>
