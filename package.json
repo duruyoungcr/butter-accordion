@@ -1,0 +1,32 @@
+{
+  "name": "butter-collapsible",
+  "version": "0.0.1",
+  "description": "A simple and lightweight react collasible package",
+  "main": "index.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duruyoungcr/butter-accordion.git"
+  },
+  "keywords": [
+    "collapsible",
+    "accordion",
+    "react",
+    "lightweight"
+  ],
+  "author": {
+    "name": "Raymond Duru-young",
+    "email": "duruyoungcr@gmail.com",
+    "url": "https://dycr.dev"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/duruyoungcr/butter-accordion/issues"
+  },
+  "homepage": "https://github.com/duruyoungcr/butter-accordion#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.21"
+  }
+}
